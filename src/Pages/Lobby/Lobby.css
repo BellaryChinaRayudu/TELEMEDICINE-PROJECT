@@ -1,0 +1,23 @@
+.meeting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: center;
+}
+
+.meeting-text{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.card{
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    position: center;
+
+}
