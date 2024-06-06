@@ -9,6 +9,7 @@ export default function BookAppointment() {
   const [formData, setFormData] = useState({});
   const [startDate, setStartDate] = useState(new Date());
   const [success, setSuccess] = useState(false);
+  const [roomId, setRoomId] = useState(65);
   const form = useRef();
   const handleChange = (e) => {
     setFormData({
@@ -39,6 +40,8 @@ export default function BookAppointment() {
 
   const handleDateChange = (date) => {
     setStartDate(date);
+    const randomRoomId = Math.random() * 100;
+    setRoomId(randomRoomId);
     const year = date.getFullYear();
     const date1 = date.getDate();
     const month = date.getMonth();
@@ -119,7 +122,7 @@ export default function BookAppointment() {
               Write something about your Health problem.
             </textarea>
             <input type="text" value={combinedTime} name="date1" hidden />
-
+            <input type="text" value={roomId} name="roomno" hidden />
             <button
               type="submit"
               onChange={handleChange}

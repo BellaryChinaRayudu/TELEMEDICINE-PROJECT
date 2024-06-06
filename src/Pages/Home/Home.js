@@ -10,12 +10,12 @@ function Home() {
     <>
       <div className="">
         <div className="frist-containor">
-          <h1 className="frist-containor-text">TELIMEDICINE GROUP</h1>
+          <h1 className="frist-containor-text">TELEMEDICINE GROUP</h1>
           <p className="frist-containor-text">
             Provide best quality healthcare for you
           </p>
           <p className="frist-containor-text">
-            Welcome to Telimedicine ,where we dedicated to provide high-quality
+            Welcome to Telemedicine ,where we dedicated to provide high-quality
             healthcare services.
             <br />
             our mission is to ensure that every patient recevies personalized
@@ -28,23 +28,23 @@ function Home() {
           <div className="card">
             <Link to="/qulified-doctor" className="card-frist-heading">
               {" "}
-              Qulifed Doctor
+              Qualifed Doctor
             </Link>
             <h1>Where People Come Frist</h1>
             <p>
-              a Qulifed Doctor Possesses extensive medical traning and
-              exertise,Capable of providing accurate diagnoses personalized
+              a Qualifed Doctor Possesses extensive medical training and
+              expertise,Capable of providing accurate diagnosis personalized
               treatment plans,and compassionate care to patients,ensuring their
               well-being and health
             </p>
           </div>
           <div className="card card-space">
             <Link to="/24hours-service" className="card-frist-heading">
-              24hours service
+              24 hours service
             </Link>
             <h1>Highest Quality Ever</h1>
             <p>
-              A highly skilled and qualifieed doctor offering rond-the-clock
+              A highly skilled and qualified doctor offering rond-the-clock
               service,delivering unparalleled medical care with an unwavering
               commitment to patient safety and satisfaction. ensuring the
               highest quality healthcare experience possible....
@@ -57,7 +57,7 @@ function Home() {
             <h1>we are here for you</h1>
             <p>
               we are here for you.Our Emergency Department stands ready 24/7 to
-              provide immediate,expert care in itmes of crisis
+              provide immediate,expert care in times of crisis
             </p>
           </div>
         </div>
