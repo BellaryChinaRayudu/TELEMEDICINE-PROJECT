@@ -9,7 +9,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
-      <h1 className="nav-heading">TELIMEDICINE</h1>
+      <h1 className="nav-heading">TELEMEDICINE</h1>
       <div className="navbar-flex">
         <div className="font-icon time-flex">
           <FcClock className="icon-size" />
@@ -25,7 +25,6 @@ function Navbar() {
             <p>Contact Us For Help</p>
           </div>
         </div>
-        <MdAccountCircle className="icon-size font-icon font-icon2" />
       </div>
     </div>
   );
