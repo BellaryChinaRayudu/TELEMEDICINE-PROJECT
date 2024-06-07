@@ -40,7 +40,7 @@ export default function BookAppointment() {
 
   const handleDateChange = (date) => {
     setStartDate(date);
-    const randomRoomId = Math.random() * 100;
+    const randomRoomId = Math.round(Math.random() * 100);
     setRoomId(randomRoomId);
     const year = date.getFullYear();
     const date1 = date.getDate();
